@@ -5,9 +5,6 @@
 .head{
   text-align: center;
 }
-h1{
-  color: red;
-}
 .important{
   height: 30%;
   width: 50%;
@@ -15,7 +12,7 @@ h1{
 h2{
   text-align: center;
   text-decoration: underline;
-  color: skyblue;
+  color: black;
 }
 h3{
   text-align: center;
@@ -39,7 +36,19 @@ li{
 }
 .jumbotron{
   padding-top: -50px;
+  background-color: lightgreen;
+}
+img{
+  width:300px;
+  height:200px;
+  image-orientation: center;
+}
+.box{
+   margin: 10px;
+    border: 10px solid black;
+     padding: 10px;
+     background-color: orange;
 }
 body{
-  background-image: image(portfolio-website/img/CRAZY PIC);
+  background-color: skyblue;
 }
