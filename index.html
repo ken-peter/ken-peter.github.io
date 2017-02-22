@@ -2,9 +2,13 @@
 <html>
 <head>
     <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <link rel="stylesheet" href="css/styles.css" type="text/css">
 <body>
@@ -33,9 +37,9 @@
     </nav><!-- end navbar -->
     <div class="jumbotron">
         <div class="container text-center">
+            <h1> MY PERSONAL PORTFOLIO</h1>
             <marquee><!-- behavior="alternate" -->
-                <h1>MY PORTFOLIO</h1>
-                <img src="img/tech3.jpg" />
+              <img src="img/tech3.jpg" />
               <img src="img/tech4.jpg">
             <img src="img/tech1.jpg"></marquee>
             <p>Just enjoying being me.All the time</p>
@@ -93,6 +97,38 @@
                     in coding. In future I would like to start my own engineering firm and I certainly would like to merge IT and engineering in order to solve more problems and make the world a better place to live in. I chose programming because it
                     certainly will give me an edge above the rest in the field I opt to venture into not only in the limited market but also in the scarce resources available in the career world. The current world we are in is quite techno-modified in
                     that everyone depends on technology for the day-to-day running of their mundane lives. Hence it is necessary to remain above the rest in terms of skill and expertise in something techno-related. </p>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Click for more info</button>
+
+                    <!-- Modal -->
+                  <div id="myModal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                      <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"></button>
+                            <h4 class="modal-title">ASPIRATIONS AND DREAMS<br><small>What I intend to see and achieve in the near future.</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p><ul class="list-inline">
+                              <li><img src="img/aspiration1.jpg"></li>
+                                <li><img src="img/aspiration2.jpg"></li>
+                                <li><img src="img/aspiration3.jpg"></li>
+                                <li><img src="img/aspiration4.jpg"></li>
+                            </ul><br>
+                              It is often said that with every sweat that comes out, a dollar comes your way (<em>Well I often say it</em>) and it actually makes perfect sense
+                            . How can you sweat without working (<em>both literally and figuratively</em>)? I would  like to see a transformed world. A world in which everyone is technologically advanced. A world where we wouldnt have someone counting your fare for you in a public vehicle but just have
+                            an automated machine doing the work for you.A world where you walk in a mall and the list of stalls and outlest are directly linked to your phone with the items and pricings(<em>However that now is a reality thanks to beacons</em>)
+                          In short, we all have the capability to advance the world. If only we all embrace change and live by it.<br> <strong class="quote">"Progress is impossible without change, and those who cannot change their minds cannot change anything."</strong> - George Bernard Shaw</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
             </div><!-- end page header -->
         </div><!-- end container -->
     </section>
@@ -106,7 +142,7 @@
                     <ul>
                         <li><strong>Phone Number</strong>: 0799004273</li>
                         <li><strong>Email Address</strong>: <a href="mail to:kennedypeter89@gmail.com" target="_blank" class="important"><em>kennedypeter89@gmail.com</em></a></li>
-                        <li><strong>Facebook:</strong> Ken Peter <small><em>(user name)</em></small></li>
+                        <li><strong>Facebook </strong> Ken Peter <small><em>(user name)</em></small></li>
                     </ul>
                 </div><!-- end class lg -->
             </div><!-- end column -->
@@ -150,7 +186,6 @@
       <h4><strong><em>EMBRACING TECHNOLOGY FOR A BRIGHTER FUTURE!!!</em></strong></h4>
     </div><!-- end container -->
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src: "https://maxcdn.bootstrap.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
